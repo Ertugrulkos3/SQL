@@ -11,7 +11,7 @@ except
 (select first_name from customer)
 ---------------------------------------
 (select first_name from actor)
-union all
+ union all
 (select first_name from customer)
 ---------------------------------------
 (select first_name from actor)
